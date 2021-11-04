@@ -1,0 +1,252 @@
+/* **Header Content** */
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header{
+    background-color: rgb(170, 119, 221);
+    margin-top: 0px;
+    height: 10vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    
+    margin-left: 200px;
+}
+
+.logo img{
+    margin-top: 10px;
+    width: 65px;
+    height: 65px;
+}
+
+.logo h1, .logo a{
+    color: white;
+    margin-right: 100px;
+    margin-top: 10px;
+    font-family: 'Tangerine', serif;
+    font-size: 35pt;
+    text-decoration: none;
+}
+
+.menubar{
+    display: flex;
+    gap: 35px;
+    margin-top: 17px;
+    margin-right: 150px;
+}
+
+.menubar a{
+    text-decoration: none;
+    color: white;
+    font-size: 14pt;
+    
+}
+.btn1, .btn2, .btn3{
+    background-color: rgb(170, 119, 221);
+    border: 0px;
+    margin: 5px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+.btn1:hover, .btn1 a:hover, .btn2:hover, .btn2 a:hover, .btn3:hover, .btn3 a:hover{
+    background-color: azure;
+    color: cornflowerblue;
+    border-radius: 5px;
+}
+
+/* Hover more */
+.more-content{
+    display: none;
+    position: absolute;
+    margin-top: -5px;
+
+}
+
+.more-content a{
+    text-decoration: none;
+    display: block;
+    background-color: rgb(107, 61, 153);
+    color: white;
+    width: 130px;
+    height: 25px;
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    border-radius: 2px;
+
+}
+
+.more-content a:hover{
+    background-color: rgb(170, 119, 221);
+    color: azure;
+    transition: 0.4s;
+}
+
+.more{
+    margin-top: 2px;
+}
+
+.more:hover .more-content{
+    display: block;
+}
+/* Hover more */
+
+.login
+{
+    margin-right: 100px;
+}
+
+.login a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+/* **Header Content** */
+
+@media only screen and (max-width: 900px){
+    header{
+        display: flex;
+    }
+    main, footer{
+        position: relative;
+    }
+}
+
+/* **Main Content** */
+main{
+    padding-top: 25px;
+    display: flex;
+    margin-top: -5px;
+    flex-direction: column;
+    background-image: url(../assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    height: 100vh;
+        
+}
+
+h1{
+	text-align: center;
+	font-weight: 300;
+}
+
+.tulisan_login{
+	text-align: center;
+	text-transform: uppercase;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.Box_login{
+	width: 350px;
+	background: rgba(255, 255, 255, 0.438);
+	margin: 80px auto;
+	padding: 30px 20px;
+    border-radius: 5px;
+}
+
+label{
+	font-size: 11pt;
+}
+
+.form_login{
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+
+}
+
+input{
+    border: none;
+    
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+
+.tombol_register{
+    transition-duration: 0.4s;
+	background: #7736c2;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+
+.tombol_register:hover{
+    background-color: #232323;
+}
+
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+.error{
+    color: red;
+}
+/* **Main Content** */
+
+/* **Footer Content** */
+footer{
+    background-color: rgb(170, 119, 221);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content1{
+    display: flex;
+    flex-direction: row;
+    gap: 1200px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.text1 h1{
+    margin-left: 50px;
+}
+
+.text2 h2{
+   margin-bottom: -15px;
+}
+
+.content2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.content2 a:hover{
+    color: rgb(42, 112, 241);
+}
+
+.content2 h1{
+    margin-left: 25px;
+}
+
+.content3{
+
+}
+/* **Footer Content** */
